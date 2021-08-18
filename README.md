@@ -2,7 +2,7 @@
 a simple way to digest all of the New York Time's content using their lovely and well documented API.
 
 <p align="center">
-  <img src="https://github.com/zane-schaffer/nytui/blob/3c9d49e078d66cd41de4e971f69490f7040bd2aa/nytuicast.svg?sanitize=true" width="500" alt="newsletter cli demo">
+  <img src="https://github.com/zane-schaffer/nytui/blob/3c9d49e078d66cd41de4e971f69490f7040bd2aa/nytuicast.svg?sanitize=true" width="1000" alt="newsletter cli demo">
 </p>
 
 -----
