@@ -11,7 +11,7 @@ create 'nytui.json' in your $XDG_CONFIG_HOME as follows
 
 ```json
 {
-    API_KEY: "YOUR_API_KEY"
+    "API_KEY": "YOUR_API_KEY"
 }
 ```
 
