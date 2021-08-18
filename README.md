@@ -1,6 +1,8 @@
 # nytui
 a simple way to digest all of the New York Time's content using their lovely and well documented API.
 
+[![asciicast](https://asciinema.org/a/14.png)](https://asciinema.org/a/14)
+
 -----
 ## API key
 

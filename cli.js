@@ -57,13 +57,16 @@ const setData = (articles) => {
 const inputArea = blessed.listbar({
   parent: mainbox,
   top: "80%",
-  height: "20%",
   width: "100%",
   focusable: true,
   clickable: true,
   keyable: true,
   keys: true,
-  autoCommandKeys: true,
+  style: {
+    selected: {
+      fg: "blue",
+    },
+  },
   items: {
     top: {
       keys: "t",
@@ -113,10 +116,6 @@ const articleView = blessed.list({
   interactive: true,
   label: "Top Stories",
   clickable: true,
-});
-
-const list = blessed.scrollabletext({
-  parent: viewbox,
 });
 
 screen.key(["enter"], async function (ch, key) {
